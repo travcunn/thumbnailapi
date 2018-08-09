@@ -6,16 +6,17 @@
 <div class="jumbotron text-center">
   <div class="container">
     <h1>Create thumbnail of an image file</h1>
-    <p>Upload a valid image file to be converted into a thumbnail</p>
+    <p>Upload a valid image file to be converted into a thumbnail (150x150 px)</p>
   </div>
 </div>
 
-<div class="container">
+<div class="container text-center">
 <form>
   <div class="form-group">
     <label for="exampleInputFile">File input</label>
-    <input type="file" id="exampleInputFile">
-    <p class="help-block">Example block-level help text here.</p>
+    <label class="btn btn-default">
+        Browse <input type="file" hidden>
+    </label>
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
