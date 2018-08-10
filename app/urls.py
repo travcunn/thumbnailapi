@@ -9,5 +9,6 @@ import thumbnailapi.views
 
 urlpatterns = [
     url(r'^$', thumbnailapi.views.index, name='index'),
+    path('convert/image/', thumbnailapi.views.convert_image),
     path('admin/', admin.site.urls),
 ]
