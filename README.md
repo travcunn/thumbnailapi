@@ -4,6 +4,10 @@ A barebones Django app, which can easily be deployed to Heroku.
 
 This application supports the [Getting Started with Python on Heroku](https://devcenter.heroku.com/articles/getting-started-with-python) article - check it out.
 
+## Screenshot:
+
+![Screenshot](https://raw.githubusercontent.com/travcunn/thumbnailapi/master/imgs/screenshot.png)
+
 ## Running Locally
 
 Make sure you have Python [installed properly](http://install.python-guide.org). Also, install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) and [Postgres](https://devcenter.heroku.com/articles/heroku-postgresql#local-setup).
